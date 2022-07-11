@@ -9,17 +9,68 @@
 <form>
 <h1>Форма заявки на работу в зоопарке</h1>
 <p><i>Пожалуйста, заполинте форму. Обязательные поля помечены <span style = color:#A60000>&#42</span></i></p>
+<fieldset>
+<legend><b>Контактная информация</b></legend>
 <p>
-<label for="name">Имя <span style = color:#A60000>&#42</span></label>
-<input type = "text" id = "name" name="login" required>
+<label for="name">Имя<span style = color:#A60000>&#42</span></label>
+<input style = margin-left:75px size = "40" type = "text" id = "name" name="login" required>
 </p>
 <p>
-<label for="number">Телефон</label>
-<input type = "text" id = "number" name="phone">
+<label for="num">Телефон</label>
+<input style = margin-left:51px size = "40" type = "tel" id = "num" name="phone">
 </p>
 <p>
 <label for="Email">Email <span style = color:#A60000>&#42</span></label>
-<input type = "text" id = "Email" name="email-adress" required>
+<input style = margin-left:62px size = "40" type = "email" id = "Email" name="email-adress" required>
+</p>
+</fieldset>
+<fieldset>
+<legend><b>Персональная информация</b></legend>
+<p>
+<label for="age">Возраст<span style = color:#A60000>&#42</span></label>
+<input style = margin-left:50px size = "40" type = "number" id = "age" name = "userAge" max = "120" required>
+</p>
+<p>
+<label for="sex">Пол</label>
+<select style = margin-left:85px id = "sex" name = "userSex">
+<option value = "Женщина" checked>Женщина</option>
+<option value = "Мужчина" checked>Мужчина</option>
+<option value = "Другое" checked>Другое</option>
+</select>
+<p>
+<label style = "display: inline-block; vertical-align: top" for="personal">Перечислите<br>личные<br>качества</label>
+<textarea style = margin-left:25px id = "personal" name = "personal" rows = "8" cols = "43"></textarea>
+</p>
+</fieldset>
+<fieldset>
+<legend><b>Выберите ваших любимых животных</b></legend>
+<p>
+<input type = "checkbox" name="animals" value = "Зебра">Зебра
+</p>
+<p>
+    <input type = "checkbox" name="animals" value = "Кошак">Кошак
+</p>
+<p>
+    <input type = "checkbox" name="animals" value = "Анаконда">Анаконда
+</p>
+<p>
+    <input type = "checkbox" name="animals" value = "Человек">Человек
+</p>
+<p>
+    <input type = "checkbox" name="animals" value = "Слон">Слон
+</p>
+<p>
+    <input type = "checkbox" name="animals" value = "Антилопа">Антилопа
+</p>
+<p>
+    <input type = "checkbox" name="animals" value = "Голубь">Голубь
+</p>
+<p>
+    <input type = "checkbox" name="animals" value = "Краб">Краб
+</p>
+</fieldset>
+<p>
+<button style="width:100x;height:40px" type = "submit">Отправить информацию</button>
 </p>
 </form>    
 </body>
