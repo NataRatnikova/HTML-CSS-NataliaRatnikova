@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form>
+<fieldset style = "border:dotted">
+<input type = "text" placeholder = "Плейсхолдер">
+<p>
+<input type = "text" value = "value">
+</p>
+<p>
+<input type = "text" placeholder = "disabled" disabled>
+</p>
+<p>
+<input type = "password" value = "passww">    
+</p>
+<p>
+<textarea placeholder = "Введите текст" rows="2"></textarea>    
+</p>
+<p>
+<input type = "button" value = "Кнопка через тег input">
+</p>
+<p>
+<button type = "submit">Кнопка через тег button</button>    
+</p>
+</fieldset>    
+</form> 
+<form>
+<fieldset style = "border:dotted">
+<p>
+<input type = "text" placeholder = "Плейсхолдер" id="Placeh"> 
+<label for = "placeh">Это метка для инпута - нажмите на меня - и инпут получит фокус!</label>
+</p>  
+<p>
+    <button type = "submit">Отправить на сервер</button>
+</p> 
+</fieldset>
+</form>  
+<form>
+    <fieldset style = "border:dotted">
+<p>
+        <input type = "checkbox" id = "box">
+<label for = "box">Это метка для чекбокса</label>
+</p>
+<p>
+<input type = "checkbox" id = "box2" checked >
+<label for = "box2">Я отмечен по умолчанию</label>   
+</p>
+<p>
+    <input type = "checkbox" checked disabled>Я disabled
+    </p>
+<fieldset>
+    <h3>Это группа радиокнопок - только одна из них может быть отмечена!</h3>
+    <p>
+   <input type = "radio" value="Метка1" name="метка">Это метка для радио
+    </p>
+    <p>
+   <input type = "radio" value="Метка2" name="метка">Это метка для радио          
+    </p>
+</fieldset>    
+<button style="submit">Отправить на сервер</button>
+    </fieldset>
+</form> 
+<form>
+<fieldset style = "border:dotted">  
+<select>
+<option>Минск</option>    
+<option>Москва</option>  
+<option>Киев</option>  
+<option selected>New York</option>   
+</select>
+<select multiple name="city[]">
+    <option>Минск</option>    
+    <option>Москва</option>  
+    <option>Киев</option>  
+    <option selected>New York</option>   
+    </select>
+    <select style="height:70px" multiple name="cities[]">
+        <option>Минск</option>    
+        <option>Москва</option>  
+        <option>Киев</option>  
+        <option selected>New York</option>   
+        <option>Варшава</option>   
+        </select>
+    <button style="submit">Отправить на сервер</button>
+</fieldset> 
+</form>
+<form>
+   <fieldset style = "border:dotted">
+<input type = "file">
+<button type = "submit">Отправить на сервер</button>
+</fieldset> 
+</form>
+<form>
+    <fieldset style = "border:dotted">
+<fieldset>
+        <legend>Выберите кнопочку</legend>
+<input type = "radio" name="метка1">
+<input type = "radio" name="метка1">
+<input type = "radio" name="метка1">
+<input type = "text" placeholder = "Ваше имя" >
+    </fieldset>
+    <fieldset>
+        <legend>Выберите еще кнопочку</legend>
+<input type = "radio" name="метка2">
+<input type = "radio" name="метка2">
+<input type = "radio" name="метка2">
+<input type = "radio" name="метка2">
+<input type = "radio" name="метка2">    
+</fieldset>   
+<p><button type = "submit">Отправить на сервер</button></p>  
+    </fieldset> 
+ </form>
+ <form>
+    <fieldset style = "border:dotted">
+    <textarea style = "resize:both;height:100px;width:200px;">Ограничена ширина и высота</textarea>    
+    <p><textarea style = "resize:both;height:100px; width:200px;" disabled></textarea></p>
+    <p><textarea style = "resize:both;height:100px; width:200px;"></textarea></p>
+    <p><textarea style = "resize:both;height:100px; width:200px;"></textarea></p>   
+</fieldset> 
+ </form>
+</body>
+</html>
+
+
+
+
