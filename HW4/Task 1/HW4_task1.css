@@ -1,0 +1,26 @@
+body{
+    background-color: gainsboro;
+}
+.format_block {
+width: 300px;
+margin: auto;
+margin-top: 3em;
+padding: 1em;
+border: 1px solid black;
+cursor: pointer;
+}
+#p_red {
+/* color: blue; */
+border-width: 4px;
+border-radius: 5px;
+}
+#div_red {
+/* color: orange; */
+border-width: 2px;
+}
+p:focus{
+    color: blue;
+}
+div:hover{
+    color: orange;
+}
