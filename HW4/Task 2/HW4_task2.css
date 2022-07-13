@@ -1,0 +1,49 @@
+h1 {
+    color:orange;
+    text-align: right;
+}
+.red {
+    color: red;
+}
+#bigger{
+    font-size: 200%;
+}
+.redactedtext {
+    color: white;
+    background-color: green;
+    font-style: italic;
+}
+#h2_1 {
+    color: orange;
+}
+#h2_2 {
+    color: blue;
+}
+.bold {
+    font-weight: bold;
+}
+.grey {
+    color: grey;
+}
+.green{
+    color: green;
+}
+#left{
+    text-align: left;
+}
+.tableProperties{
+    text-align: center;
+    border-color: black;
+}
+.name{
+    color: orange;
+    background-color: white;
+    width: 120px;
+}
+.table{
+    background-color: green;
+    color: white;
+}
+#width{
+    width: 85px
+}
