@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Центрирование</title>
+    <style>
+        /*
+            Неизвестна высота элемента?
+
+            Его все-таки можно центрировать, подняв вверх на половину его высоты после того, как
+            сдвинули его наполовину вниз:
+        */
+        body {
+            background: lightblue;
+            font-size: 80%;
+        }
+
+        section {
+            background: white;
+            height: 300px;
+            margin: 20px;
+            width: 300px;
+            position: relative;
+            resize: vertical;
+            overflow: auto;
+        }
+
+        section div {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            right: 20px;
+            background: black;
+            color: white;
+            padding: 20px;
+            transform: translateY(-50%);
+            resize: vertical;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            I'm a block-level element with a fixed height, centered vertically within my parent.
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,30 @@
+div{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    
+    
+}
+
+h3{
+    background-color: orange;
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: 400;
+    cursor: default;
+    margin: 0 auto;
+}
+
+h4{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400, bold;
+    cursor: default;
+    margin: 0 auto;
+}
