@@ -1,17 +1,16 @@
 div{
-    margin-left: 300px;
-    margin-right: 300px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
     text-align: center;
-    
-    
+    border-radius: 5px;
+    font-family: Arial;
+    box-shadow: 0 0 6px 3px orange;
 }
 
 h3{
     background-color: orange;
-    border-radius: 5px;
-    width: 200px;
+    width: 100%;
     height: 35px;
-    text-align: center;
     padding-top: 20px;
     color: white;
     font-weight: 400;
@@ -20,16 +19,57 @@ h3{
 }
 
 h4{
-    width: 200px;
+    width: 85%;
     text-align: center;
     padding-top: 10px;
     font-weight: 400, bold;
     cursor: default;
     margin: 0 auto;
+    color: #35495a;
 }
-.p{
+
+p {
     text-align: center;
     padding-top: 10px;
-    
+    font-size: 230%;
+    font-weight: bold;
     margin: 0 auto;
+    width: 100%;
+    color: #35495a;
+}
+
+.small {
+    font-size: 30%;
+    font-weight: bold;
+}
+
+.list {
+    list-style: none;
+    text-align: left;
+    font-size: 15px;
+    text-transform: none;
+    margin: 10px auto 20px;
+    width: 90%;
+    color: gray;
+}
+
+.list > li {
+    background: url(arrow.png) no-repeat;
+    background-position: 30px 10px;
+    padding: 7px 8px 8px 60px;
+    border-bottom: 1px white
+}
+
+.list > li:nth-child(even) {
+    background-color: rgb(215, 217, 219);
+  }
+
+  .list > li:nth-child(odd) {
+    background-color: rgb(209, 224, 231)  }
+
+.cta-btn {
+    width: 100%;
+    background-color: orange;
+    padding: 5px 40px 2px 40px;
+    color: white;
 }
