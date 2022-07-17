@@ -21,10 +21,15 @@ h3{
 
 h4{
     width: 200px;
-    height: 35px;
     text-align: center;
     padding-top: 10px;
     font-weight: 400, bold;
     cursor: default;
+    margin: 0 auto;
+}
+.p{
+    text-align: center;
+    padding-top: 10px;
+    
     margin: 0 auto;
 }
