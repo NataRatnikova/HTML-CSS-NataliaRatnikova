@@ -1,6 +1,4 @@
 div{
-    /* margin-left: 300px;
-    margin-right: 300px; */
     text-align: center;
     border-radius: 5px;
     font-family: Arial;
@@ -38,25 +36,36 @@ p {
     color: #35495a;
 }
 
-.small {
+.sup {
     font-size: 30%;
     font-weight: bold;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+.sub {
+    font-size: 30%;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    right: 5px;
 }
 
 .list {
     list-style: none;
     text-align: left;
     font-size: 15px;
-    text-transform: none;
-    margin: 10px auto 20px;
     width: 90%;
     color: gray;
+    padding: 0;
+    margin: 10px auto 10px auto;
 }
 
 .list > li {
     background: url(arrow.png) no-repeat;
-    background-position: 30px 10px;
-    padding: 7px 8px 8px 60px;
+    background-position: 20px 10px;
+    padding: 7px 8px 8px 40px;
     border-bottom: 1px white
 }
 
@@ -68,8 +77,82 @@ p {
     background-color: rgb(209, 224, 231)  }
 
 .cta-btn {
-    width: 100%;
     background-color: orange;
-    padding: 5px 40px 2px 40px;
-    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 0px 10px 0px;
+    width: 90%;
+    padding: 5px 0px 5px 0px;
+    text-transform: uppercase;
 }
+
+A {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.div2 {
+    box-shadow: 0px 1px 1px 1px lightblue;
+}
+
+.div3 {
+    box-shadow: 0px 1px 1px 1px lightblue;
+}
+
+.blue {
+    background-color: lightblue;
+    height: 35px;
+    padding-top: 14px;
+}
+
+.green {
+    background-color: aquamarine;
+    height: 35px;
+    padding-top: 14px;
+}
+
+.cta-btn2 {
+    background-color: blue;
+}
+
+h2 {
+    text-align: center;
+    color: #35495a;
+    text-transform: uppercase}
+
+body {
+    padding: 20px;
+    align-content: center;
+}
+
+section .div1 {
+    /* position: absolute; */
+    height: 335px;
+    width: 250px; 
+    float: left;
+}
+
+section .div2 {
+    /* position: absolute;  */
+    /* margin: 10px 0px 10px 5px; */
+    margin-top: 10px;
+    width: 250px;
+    height: 320px;
+    /* margin-left: 300px; */
+    /* display: inline-block; */
+    float: left; 
+    }
+
+    section .div3 {
+        /* position: absolute; */
+        margin-top: 10px;
+        height: 320px;
+        width: 250px;
+        /* display: inline-block; */
+        float: left;
+        /* margin: 10px auto auto 515px; */
+        }
+
+
+
