@@ -123,35 +123,29 @@ h2 {
 
 body {
     padding: 20px;
-    align-content: center;
+    display: table;
+    margin: auto;
+}
+
+section {
+float:left;
 }
 
 section .div1 {
-    /* position: absolute; */
     height: 335px;
     width: 250px; 
-    float: left;
 }
 
 section .div2 {
-    /* position: absolute;  */
-    /* margin: 10px 0px 10px 5px; */
     margin-top: 10px;
     width: 250px;
     height: 320px;
-    /* margin-left: 300px; */
-    /* display: inline-block; */
-    float: left; 
     }
 
     section .div3 {
-        /* position: absolute; */
         margin-top: 10px;
         height: 320px;
         width: 250px;
-        /* display: inline-block; */
-        float: left;
-        /* margin: 10px auto auto 515px; */
         }
 
 
