@@ -1,0 +1,25 @@
+table {
+border-spacing: 0;
+margin: 0 auto; /*Дополнительно выровняла по центру*/
+padding-top: 50px /*Сделала дополнительный отступ свеху для удобства*/;
+}
+
+tr:nth-child(even) /*четные*/ {
+    background-color: violet;
+}
+
+td{
+    padding: 5px 10px 5px 10px;
+    border-bottom: 2px solid violet;
+}
+
+td:nth-child(2n+3) /*каждый второй элемент, начиная с третьего*/ {
+    background-color: yellow;
+}
+
+
+
+
+
+
+
