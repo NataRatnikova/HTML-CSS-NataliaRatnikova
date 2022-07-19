@@ -124,7 +124,7 @@ h2 {
 body {
     padding: 20px;
     display: table;
-    margin: auto;
+    margin: 0 auto;
 }
 
 section {
