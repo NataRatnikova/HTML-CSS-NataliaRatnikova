@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+    display: table;
+    margin: 0 auto;
+}
+
+section {
+float:left;
+}
+
+section div {
+    width: 200px;
+    height: 500px;
+    margin-right: 30px;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.image {
+margin-left: 50px;
+}
+
+.p1 {
+    text-transform: uppercase;
+    color: lightblue;
+    text-align: center;
+}
+
+.p2 {
+    color: grey;
+    text-align: center;
+    font-size: small;
+}
